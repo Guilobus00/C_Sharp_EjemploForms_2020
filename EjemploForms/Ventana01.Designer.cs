@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ventana01));
             this.label1 = new System.Windows.Forms.Label();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.SuspendLayout();
@@ -54,6 +55,7 @@
             this.ClientSize = new System.Drawing.Size(282, 310);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ventana01";
             this.Text = "Ventana01";
             this.ResumeLayout(false);
